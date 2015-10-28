@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Color LED UDP</string>
+    <string name="router_name">Enter router name</string>
+    <string name="router_password">Enter router password</string>
+    <string name="connect_ap">Connect AP</string>
+    <string name="connect_station">Connect Station</string>
+    <string name="router_login">Router Login</string>
+    <string name="get_ip">Get IP</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="hue">Hue</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="send">Send</string>
+    <string name="title_activity_main">Send</string>
+</resources>

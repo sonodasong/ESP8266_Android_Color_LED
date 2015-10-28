@@ -1,0 +1,994 @@
+Archive member included because of file (symbol)
+
+h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+                              src/library/usart0.o (__udivmodsi4)
+h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                              h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o (exit)
+h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                              src/library/esp8266.o (__do_copy_data)
+h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                              src/library/usart0.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+OSLockNesting       0x1               src/uCOS-II/Source/os_core.o
+OSRunning           0x1               src/uCOS-II/Source/os_core.o
+OSIdleCtr           0x4               src/uCOS-II/Source/os_core.o
+OSPrioHighRdy       0x1               src/uCOS-II/Source/os_core.o
+OSPrioCur           0x1               src/uCOS-II/Source/os_core.o
+OSTCBList           0x2               src/uCOS-II/Source/os_core.o
+OSCtxSwCtr          0x4               src/uCOS-II/Source/os_core.o
+OSTCBFreeList       0x2               src/uCOS-II/Source/os_core.o
+OSTaskCtr           0x1               src/uCOS-II/Source/os_core.o
+OSQTbl              0x38              src/uCOS-II/Source/os_core.o
+OSTCBHighRdy        0x2               src/uCOS-II/Source/os_core.o
+OSQFreeList         0x2               src/uCOS-II/Source/os_core.o
+OSRdyGrp            0x1               src/uCOS-II/Source/os_core.o
+OSRdyTbl            0x2               src/uCOS-II/Source/os_core.o
+OSEventFreeList     0x2               src/uCOS-II/Source/os_core.o
+OSIntNesting        0x1               src/uCOS-II/Source/os_core.o
+OSTCBCur            0x2               src/uCOS-II/Source/os_core.o
+OSTaskIdleStk       0x80              src/uCOS-II/Source/os_core.o
+OSEventTbl          0x50              src/uCOS-II/Source/os_core.o
+OSTCBTbl            0xbd              src/uCOS-II/Source/os_core.o
+OSTCBPrioTbl        0x20              src/uCOS-II/Source/os_core.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+ .text          0x00000000        0x0 src/library/basic.o
+ .bss           0x00000000        0x0 src/library/basic.o
+ .text.disablePullup
+                0x00000000        0x8 src/library/basic.o
+ .text          0x00000000        0x0 src/library/esp8266.o
+ .bss           0x00000000        0x0 src/library/esp8266.o
+ .text          0x00000000        0x0 src/library/hue.o
+ .bss           0x00000000        0x0 src/library/hue.o
+ .text          0x00000000        0x0 src/library/led.o
+ .bss           0x00000000        0x0 src/library/led.o
+ .text          0x00000000        0x0 src/library/pwm.o
+ .bss           0x00000000        0x0 src/library/pwm.o
+ .text.pwm2A    0x00000000        0x8 src/library/pwm.o
+ .text          0x00000000        0x0 src/library/usart0.o
+ .bss           0x00000000        0x0 src/library/usart0.o
+ .text          0x00000000        0x0 src/uCOS-II/App/app_hooks.o
+ .bss           0x00000000        0x0 src/uCOS-II/App/app_hooks.o
+ .bss           0x00000000        0x0 src/uCOS-II/Ports/os_cpu_a.o
+ .text          0x00000000        0x0 src/uCOS-II/Ports/os_cpu_c.o
+ .bss           0x00000000        0x0 src/uCOS-II/Ports/os_cpu_c.o
+ .text.OSTaskDelHook
+                0x00000000        0x2 src/uCOS-II/Ports/os_cpu_c.o
+ .text.OSTaskStatHook
+                0x00000000        0x2 src/uCOS-II/Ports/os_cpu_c.o
+ .text          0x00000000        0x0 src/uCOS-II/Ports/os_dbg.o
+ .bss           0x00000000        0x0 src/uCOS-II/Ports/os_dbg.o
+ .rodata.OSDebugEn
+                0x00000000        0x2 src/uCOS-II/Ports/os_dbg.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_core.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_core.o
+ .text.OSSchedLock
+                0x00000000       0x28 src/uCOS-II/Source/os_core.o
+ .text.OSVersion
+                0x00000000        0x6 src/uCOS-II/Source/os_core.o
+ .text.OS_MemCopy
+                0x00000000       0x1c src/uCOS-II/Source/os_core.o
+ .text.OSSchedUnlock
+                0x00000000       0x42 src/uCOS-II/Source/os_core.o
+ .text.OS_StrLen
+                0x00000000       0x1a src/uCOS-II/Source/os_core.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_flag.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_flag.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_mbox.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_mbox.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_mem.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_mem.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_mutex.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_mutex.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_q.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_q.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_sem.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_sem.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_task.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_task.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_time.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_time.o
+ .text          0x00000000        0x0 src/uCOS-II/Source/os_tmr.o
+ .bss           0x00000000        0x0 src/uCOS-II/Source/os_tmr.o
+ .text          0x00000000        0x0 src/user/main.o
+ .bss           0x00000000        0x0 src/user/main.o
+ .text          0x00000000        0x0 src/user/task.o
+ .bss           0x00000000        0x0 src/user/task.o
+ .text.colorLEDDemo
+                0x00000000       0x40 src/user/task.o
+ .text          0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+LOAD src/library/basic.o
+LOAD src/library/esp8266.o
+LOAD src/library/hue.o
+LOAD src/library/led.o
+LOAD src/library/pwm.o
+LOAD src/library/usart0.o
+LOAD src/uCOS-II/App/app_hooks.o
+LOAD src/uCOS-II/Ports/os_cpu_a.o
+LOAD src/uCOS-II/Ports/os_cpu_c.o
+LOAD src/uCOS-II/Ports/os_dbg.o
+LOAD src/uCOS-II/Source/os_core.o
+LOAD src/uCOS-II/Source/os_flag.o
+LOAD src/uCOS-II/Source/os_mbox.o
+LOAD src/uCOS-II/Source/os_mem.o
+LOAD src/uCOS-II/Source/os_mutex.o
+LOAD src/uCOS-II/Source/os_q.o
+LOAD src/uCOS-II/Source/os_sem.o
+LOAD src/uCOS-II/Source/os_task.o
+LOAD src/uCOS-II/Source/os_time.o
+LOAD src/uCOS-II/Source/os_tmr.o
+LOAD src/user/main.o
+LOAD src/user/task.o
+START GROUP
+LOAD h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libm.a
+END GROUP
+LOAD h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+LOAD h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5\libc.a
+LOAD h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x186e
+ *(.vectors)
+ .vectors       0x00000000       0x68 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x00000068                . = ALIGN (0x2)
+                0x00000068                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000068        0x0 linker stubs
+ *(.trampolines*)
+                0x00000068                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000068                __ctors_start = .
+ *(.ctors)
+                0x00000068                __ctors_end = .
+                0x00000068                __dtors_start = .
+ *(.dtors)
+                0x00000068                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000068        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+                0x00000068                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000068        0xc h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000074       0x16 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+                0x00000074                __do_copy_data
+ .init4         0x0000008a       0x10 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000008a                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000009a        0x8 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x000000a2        0x4 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+                0x000000a2                __vector_22
+                0x000000a2                __vector_1
+                0x000000a2                __vector_24
+                0x000000a2                __vector_12
+                0x000000a2                __bad_interrupt
+                0x000000a2                __vector_6
+                0x000000a2                __vector_3
+                0x000000a2                __vector_23
+                0x000000a2                __vector_25
+                0x000000a2                __vector_13
+                0x000000a2                __vector_17
+                0x000000a2                __vector_19
+                0x000000a2                __vector_7
+                0x000000a2                __vector_5
+                0x000000a2                __vector_4
+                0x000000a2                __vector_9
+                0x000000a2                __vector_2
+                0x000000a2                __vector_21
+                0x000000a2                __vector_15
+                0x000000a2                __vector_8
+                0x000000a2                __vector_14
+                0x000000a2                __vector_10
+                0x000000a2                __vector_16
+ .text          0x000000a6      0x120 src/uCOS-II/Ports/os_cpu_a.o
+                0x000000a6                CPUGetSR
+                0x000000ac                CPUSetSR
+                0x000000b0                OSStartHighRdy
+                0x0000010c                OSCtxSw
+                0x000001c6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.strCmp   0x000001c6       0x28 src/library/basic.o
+                0x000001c6                strCmp
+ .text.strCpy   0x000001ee       0x2a src/library/basic.o
+                0x000001ee                strCpy
+ .text.strLen   0x00000218       0x1e src/library/basic.o
+                0x00000218                strLen
+ .text.enablePullup
+                0x00000236        0x8 src/library/basic.o
+                0x00000236                enablePullup
+ .text.ledInit  0x0000023e        0x4 src/library/basic.o
+                0x0000023e                ledInit
+ .text.ledOn    0x00000242        0x4 src/library/basic.o
+                0x00000242                ledOn
+ .text.ledOff   0x00000246        0x4 src/library/basic.o
+                0x00000246                ledOff
+ .text.esp8266RxBufferFlash
+                0x0000024a       0x28 src/library/esp8266.o
+ .text.esp8266Cmd
+                0x00000272       0x62 src/library/esp8266.o
+                0x00000272                esp8266Cmd
+ .text.esp8266ConnectAP
+                0x000002d4       0x8e src/library/esp8266.o
+                0x000002d4                esp8266ConnectAP
+ .text.esp8266GetIP
+                0x00000362       0x86 src/library/esp8266.o
+                0x00000362                esp8266GetIP
+ .text.esp8266Rx
+                0x000003e8       0x66 src/library/esp8266.o
+                0x000003e8                esp8266Rx
+ .text.esp8266Tx
+                0x0000044e       0x34 src/library/esp8266.o
+                0x0000044e                esp8266Tx
+ .text.hueToRed
+                0x00000482       0x5c src/library/hue.o
+                0x00000482                hueToRed
+ .text.hueToGreen
+                0x000004de       0x4e src/library/hue.o
+                0x000004de                hueToGreen
+ .text.hueToBlue
+                0x0000052c       0x50 src/library/hue.o
+                0x0000052c                hueToBlue
+ .text.ledRedSet
+                0x0000057c        0x6 src/library/led.o
+                0x0000057c                ledRedSet
+ .text.ledGreenSet
+                0x00000582        0x6 src/library/led.o
+                0x00000582                ledGreenSet
+ .text.ledBlueSet
+                0x00000588        0x6 src/library/led.o
+                0x00000588                ledBlueSet
+ .text.pwmInit  0x0000058e       0x38 src/library/pwm.o
+                0x0000058e                pwmInit
+ .text.pwm0A    0x000005c6        0x6 src/library/pwm.o
+                0x000005c6                pwm0A
+ .text.pwm0B    0x000005cc        0x6 src/library/pwm.o
+                0x000005cc                pwm0B
+ .text.pwm2B    0x000005d2        0x8 src/library/pwm.o
+                0x000005d2                pwm2B
+ .text.usart0Init
+                0x000005da       0x62 src/library/usart0.o
+                0x000005da                usart0Init
+ .text.usart0Print
+                0x0000063c       0x44 src/library/usart0.o
+                0x0000063c                usart0Print
+ .text.usart0LongInt
+                0x00000680       0x9c src/library/usart0.o
+                0x00000680                usart0LongInt
+ .text.usart0Read
+                0x0000071c       0x36 src/library/usart0.o
+                0x0000071c                usart0Read
+ .text.__vector_20
+                0x00000752       0x7a src/library/usart0.o
+                0x00000752                __vector_20
+ .text.__vector_18
+                0x000007cc       0xc0 src/library/usart0.o
+                0x000007cc                __vector_18
+ .text.OSTaskStkInit
+                0x0000088c      0x122 src/uCOS-II/Ports/os_cpu_c.o
+                0x0000088c                OSTaskStkInit
+ .text.OSTaskCreateHook
+                0x000009ae        0x2 src/uCOS-II/Ports/os_cpu_c.o
+                0x000009ae                OSTaskCreateHook
+ .text.OSTaskIdleHook
+                0x000009b0        0x2 src/uCOS-II/Ports/os_cpu_c.o
+                0x000009b0                OSTaskIdleHook
+ .text.OSInitHookBegin
+                0x000009b2        0x2 src/uCOS-II/Ports/os_cpu_c.o
+                0x000009b2                OSInitHookBegin
+ .text.OSInitHookEnd
+                0x000009b4        0x2 src/uCOS-II/Ports/os_cpu_c.o
+                0x000009b4                OSInitHookEnd
+ .text.OSTCBInitHook
+                0x000009b6        0x2 src/uCOS-II/Ports/os_cpu_c.o
+                0x000009b6                OSTCBInitHook
+ .text.OSTaskReturnHook
+                0x000009b8        0x2 src/uCOS-II/Ports/os_cpu_c.o
+                0x000009b8                OSTaskReturnHook
+ .text.__vector_11
+                0x000009ba       0x50 src/uCOS-II/Ports/os_cpu_c.o
+                0x000009ba                __vector_11
+ .text.OS_SchedNew
+                0x00000a0a       0x2c src/uCOS-II/Source/os_core.o
+ .text.OS_TaskIdle
+                0x00000a36       0x36 src/uCOS-II/Source/os_core.o
+                0x00000a36                OS_TaskIdle
+ .text.OSIntEnter
+                0x00000a6c       0x18 src/uCOS-II/Source/os_core.o
+                0x00000a6c                OSIntEnter
+ .text.OSIntExit
+                0x00000a84       0x88 src/uCOS-II/Source/os_core.o
+                0x00000a84                OSIntExit
+ .text.OSStart  0x00000b0c       0x38 src/uCOS-II/Source/os_core.o
+                0x00000b0c                OSStart
+ .text.OSTimeTick
+                0x00000b44       0x9a src/uCOS-II/Source/os_core.o
+                0x00000b44                OSTimeTick
+ .text.OS_EventTaskWait
+                0x00000bde       0x58 src/uCOS-II/Source/os_core.o
+                0x00000bde                OS_EventTaskWait
+ .text.OS_EventTaskRemove
+                0x00000c36       0x2c src/uCOS-II/Source/os_core.o
+                0x00000c36                OS_EventTaskRemove
+ .text.OS_EventTaskRdy
+                0x00000c62       0x88 src/uCOS-II/Source/os_core.o
+                0x00000c62                OS_EventTaskRdy
+ .text.OS_EventWaitListInit
+                0x00000cea        0xa src/uCOS-II/Source/os_core.o
+                0x00000cea                OS_EventWaitListInit
+ .text.OS_MemClr
+                0x00000cf4       0x16 src/uCOS-II/Source/os_core.o
+                0x00000cf4                OS_MemClr
+ .text.OSInit   0x00000d0a      0x136 src/uCOS-II/Source/os_core.o
+                0x00000d0a                OSInit
+ .text.OS_Sched
+                0x00000e40       0x76 src/uCOS-II/Source/os_core.o
+                0x00000e40                OS_Sched
+ .text.OS_TCBInit
+                0x00000eb6      0x116 src/uCOS-II/Source/os_core.o
+                0x00000eb6                OS_TCBInit
+ .text.OSQCreate
+                0x00000fcc       0xda src/uCOS-II/Source/os_q.o
+                0x00000fcc                OSQCreate
+ .text.OSQPend  0x000010a6      0x130 src/uCOS-II/Source/os_q.o
+                0x000010a6                OSQPend
+ .text.OSQPost  0x000011d6       0x98 src/uCOS-II/Source/os_q.o
+                0x000011d6                OSQPost
+ .text.OS_QInit
+                0x0000126e       0x3e src/uCOS-II/Source/os_q.o
+                0x0000126e                OS_QInit
+ .text.OSSemCreate
+                0x000012ac       0x60 src/uCOS-II/Source/os_sem.o
+                0x000012ac                OSSemCreate
+ .text.OSSemPend
+                0x0000130c       0xf2 src/uCOS-II/Source/os_sem.o
+                0x0000130c                OSSemPend
+ .text.OSSemPost
+                0x000013fe       0x68 src/uCOS-II/Source/os_sem.o
+                0x000013fe                OSSemPost
+ .text.OSTaskCreate
+                0x00001466       0xd6 src/uCOS-II/Source/os_task.o
+                0x00001466                OSTaskCreate
+ .text.OS_TaskReturn
+                0x0000153c       0x1a src/uCOS-II/Source/os_task.o
+                0x0000153c                OS_TaskReturn
+ .text.OSTimeDly
+                0x00001556       0x70 src/uCOS-II/Source/os_time.o
+                0x00001556                OSTimeDly
+ .text.main     0x000015c6       0x7a src/user/main.o
+                0x000015c6                main
+ .text.hexToInt
+                0x00001640       0x10 src/user/task.o
+ .text.blink    0x00001650       0x6c src/user/task.o
+                0x00001650                blink
+ .text.esp8266ColorLED
+                0x000016bc      0x16a src/user/task.o
+                0x000016bc                esp8266ColorLED
+ .text.libgcc.div
+                0x00001826       0x44 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001826                __udivmodsi4
+                0x0000186a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000186a        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+                0x0000186a                _exit
+                0x0000186a                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000186a        0x4 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000186e                _etext = .
+
+.data           0x00800100      0x174 load address 0x0000186e
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 src/library/basic.o
+ .data          0x00800100        0x0 src/library/esp8266.o
+ .data          0x00800100        0x0 src/library/hue.o
+ .data          0x00800100        0x0 src/library/led.o
+ .data          0x00800100        0x0 src/library/pwm.o
+ .data          0x00800100        0x0 src/library/usart0.o
+ .data          0x00800100        0x0 src/uCOS-II/App/app_hooks.o
+ .data          0x00800100        0x0 src/uCOS-II/Ports/os_cpu_a.o
+ .data          0x00800100        0x0 src/uCOS-II/Ports/os_cpu_c.o
+ .data          0x00800100        0x0 src/uCOS-II/Ports/os_dbg.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_core.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_flag.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_mbox.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_mem.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_mutex.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_q.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_sem.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_task.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_time.o
+ .data          0x00800100        0x0 src/uCOS-II/Source/os_tmr.o
+ .data          0x00800100        0x0 src/user/main.o
+ .data          0x00800100        0x0 src/user/task.o
+ .data          0x00800100        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800100        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr5\libgcc.a(_clear_bss.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800100       0x40 src/library/esp8266.o
+                                 0x43 (size before relaxing)
+ .rodata.OSUnMapTbl
+                0x00800140      0x100 src/uCOS-II/Source/os_core.o
+                0x00800140                OSUnMapTbl
+ .rodata.str1.1
+                0x00800240       0x33 src/user/task.o
+                                 0x3b (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x00800274                . = ALIGN (0x2)
+ *fill*         0x00800273        0x1 
+                0x00800274                _edata = .
+                0x00800274                PROVIDE (__data_end, .)
+
+.bss            0x00800274      0x414
+                0x00800274                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.usart0TxRdy
+                0x00800274        0x2 src/library/usart0.o
+ .bss.usart0RxQPtr
+                0x00800276        0x8 src/library/usart0.o
+ .bss.usart0RxQ
+                0x0080027e        0x2 src/library/usart0.o
+ .bss.usart0RxCnt
+                0x00800280        0x1 src/library/usart0.o
+ .bss.usart0RxQCnt
+                0x00800281        0x1 src/library/usart0.o
+ .bss.usart0TxCnt
+                0x00800282        0x1 src/library/usart0.o
+ .bss.usart0TxPtr
+                0x00800283        0x2 src/library/usart0.o
+ .bss.usart0RxBuf
+                0x00800285       0x80 src/library/usart0.o
+ .bss.stack0    0x00800305      0x100 src/user/main.o
+ .bss.stack1    0x00800405       0x80 src/user/main.o
+ .bss.esp8266Initialized
+                0x00800485        0x1 src/user/task.o
+ *(COMMON)
+ COMMON         0x00800486      0x202 src/uCOS-II/Source/os_core.o
+                0x00800486                OSLockNesting
+                0x00800487                OSRunning
+                0x00800488                OSIdleCtr
+                0x0080048c                OSPrioHighRdy
+                0x0080048d                OSPrioCur
+                0x0080048e                OSTCBList
+                0x00800490                OSCtxSwCtr
+                0x00800494                OSTCBFreeList
+                0x00800496                OSTaskCtr
+                0x00800497                OSQTbl
+                0x008004cf                OSTCBHighRdy
+                0x008004d1                OSQFreeList
+                0x008004d3                OSRdyGrp
+                0x008004d4                OSRdyTbl
+                0x008004d6                OSEventFreeList
+                0x008004d8                OSIntNesting
+                0x008004d9                OSTCBCur
+                0x008004db                OSTaskIdleStk
+                0x0080055b                OSEventTbl
+                0x008005ab                OSTCBTbl
+                0x00800668                OSTCBPrioTbl
+                0x00800688                PROVIDE (__bss_end, .)
+                0x0000186e                __data_load_start = LOADADDR (.data)
+                0x000019e2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800688        0x0
+                0x00800688                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800688                PROVIDE (__noinit_end, .)
+                0x00800688                _end = .
+                0x00800688                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000      0x6cc
+ *(.stab)
+ .stab          0x00000000      0x6cc h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+
+.stabstr        0x00000000       0x97
+ *(.stabstr)
+ .stabstr       0x00000000       0x97 h:/development/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr5/crtm328p.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f src/library/basic.o
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 src/library/esp8266.o
+ .comment       0x00000000       0x30 src/library/hue.o
+ .comment       0x00000000       0x30 src/library/led.o
+ .comment       0x00000000       0x30 src/library/pwm.o
+ .comment       0x00000000       0x30 src/library/usart0.o
+ .comment       0x00000000       0x30 src/uCOS-II/App/app_hooks.o
+ .comment       0x00000000       0x30 src/uCOS-II/Ports/os_cpu_c.o
+ .comment       0x00000000       0x30 src/uCOS-II/Ports/os_dbg.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_core.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_flag.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_mbox.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_mem.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_mutex.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_q.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_sem.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_task.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_time.o
+ .comment       0x00000000       0x30 src/uCOS-II/Source/os_tmr.o
+ .comment       0x00000000       0x30 src/user/main.o
+ .comment       0x00000000       0x30 src/user/task.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x470
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 src/library/basic.o
+ .debug_aranges
+                0x00000058       0x48 src/library/esp8266.o
+ .debug_aranges
+                0x000000a0       0x30 src/library/hue.o
+ .debug_aranges
+                0x000000d0       0x30 src/library/led.o
+ .debug_aranges
+                0x00000100       0x40 src/library/pwm.o
+ .debug_aranges
+                0x00000140       0x48 src/library/usart0.o
+ .debug_aranges
+                0x00000188       0x18 src/uCOS-II/App/app_hooks.o
+ .debug_aranges
+                0x000001a0       0x20 src/uCOS-II/Ports/os_cpu_a.o
+ .debug_aranges
+                0x000001c0       0x68 src/uCOS-II/Ports/os_cpu_c.o
+ .debug_aranges
+                0x00000228       0x18 src/uCOS-II/Ports/os_dbg.o
+ .debug_aranges
+                0x00000240       0xb0 src/uCOS-II/Source/os_core.o
+ .debug_aranges
+                0x000002f0       0x18 src/uCOS-II/Source/os_flag.o
+ .debug_aranges
+                0x00000308       0x18 src/uCOS-II/Source/os_mbox.o
+ .debug_aranges
+                0x00000320       0x18 src/uCOS-II/Source/os_mem.o
+ .debug_aranges
+                0x00000338       0x18 src/uCOS-II/Source/os_mutex.o
+ .debug_aranges
+                0x00000350       0x38 src/uCOS-II/Source/os_q.o
+ .debug_aranges
+                0x00000388       0x30 src/uCOS-II/Source/os_sem.o
+ .debug_aranges
+                0x000003b8       0x28 src/uCOS-II/Source/os_task.o
+ .debug_aranges
+                0x000003e0       0x20 src/uCOS-II/Source/os_time.o
+ .debug_aranges
+                0x00000400       0x18 src/uCOS-II/Source/os_tmr.o
+ .debug_aranges
+                0x00000418       0x20 src/user/main.o
+ .debug_aranges
+                0x00000438       0x38 src/user/task.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x4337
+ *(.debug_info)
+ .debug_info    0x00000000      0x217 src/library/basic.o
+ .debug_info    0x00000217      0x5dc src/library/esp8266.o
+ .debug_info    0x000007f3      0x140 src/library/hue.o
+ .debug_info    0x00000933      0x176 src/library/led.o
+ .debug_info    0x00000aa9      0x187 src/library/pwm.o
+ .debug_info    0x00000c30      0x541 src/library/usart0.o
+ .debug_info    0x00001171       0x5d src/uCOS-II/App/app_hooks.o
+ .debug_info    0x000011ce       0xb7 src/uCOS-II/Ports/os_cpu_a.o
+ .debug_info    0x00001285      0x3fd src/uCOS-II/Ports/os_cpu_c.o
+ .debug_info    0x00001682       0x7f src/uCOS-II/Ports/os_dbg.o
+ .debug_info    0x00001701      0xda4 src/uCOS-II/Source/os_core.o
+ .debug_info    0x000024a5       0x5d src/uCOS-II/Source/os_flag.o
+ .debug_info    0x00002502       0x5d src/uCOS-II/Source/os_mbox.o
+ .debug_info    0x0000255f       0x5d src/uCOS-II/Source/os_mem.o
+ .debug_info    0x000025bc       0x5d src/uCOS-II/Source/os_mutex.o
+ .debug_info    0x00002619      0x6c9 src/uCOS-II/Source/os_q.o
+ .debug_info    0x00002ce2      0x503 src/uCOS-II/Source/os_sem.o
+ .debug_info    0x000031e5      0x4c0 src/uCOS-II/Source/os_task.o
+ .debug_info    0x000036a5      0x2ec src/uCOS-II/Source/os_time.o
+ .debug_info    0x00003991       0x5d src/uCOS-II/Source/os_tmr.o
+ .debug_info    0x000039ee      0x231 src/user/main.o
+ .debug_info    0x00003c1f      0x718 src/user/task.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x14d8
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xdb src/library/basic.o
+ .debug_abbrev  0x000000db      0x14a src/library/esp8266.o
+ .debug_abbrev  0x00000225       0x9c src/library/hue.o
+ .debug_abbrev  0x000002c1       0xb3 src/library/led.o
+ .debug_abbrev  0x00000374       0x98 src/library/pwm.o
+ .debug_abbrev  0x0000040c      0x200 src/library/usart0.o
+ .debug_abbrev  0x0000060c       0x26 src/uCOS-II/App/app_hooks.o
+ .debug_abbrev  0x00000632       0x14 src/uCOS-II/Ports/os_cpu_a.o
+ .debug_abbrev  0x00000646      0x156 src/uCOS-II/Ports/os_cpu_c.o
+ .debug_abbrev  0x0000079c       0x4b src/uCOS-II/Ports/os_dbg.o
+ .debug_abbrev  0x000007e7      0x2f9 src/uCOS-II/Source/os_core.o
+ .debug_abbrev  0x00000ae0       0x26 src/uCOS-II/Source/os_flag.o
+ .debug_abbrev  0x00000b06       0x26 src/uCOS-II/Source/os_mbox.o
+ .debug_abbrev  0x00000b2c       0x26 src/uCOS-II/Source/os_mem.o
+ .debug_abbrev  0x00000b52       0x26 src/uCOS-II/Source/os_mutex.o
+ .debug_abbrev  0x00000b78      0x1e9 src/uCOS-II/Source/os_q.o
+ .debug_abbrev  0x00000d61      0x1b8 src/uCOS-II/Source/os_sem.o
+ .debug_abbrev  0x00000f19      0x1a9 src/uCOS-II/Source/os_task.o
+ .debug_abbrev  0x000010c2      0x127 src/uCOS-II/Source/os_time.o
+ .debug_abbrev  0x000011e9       0x26 src/uCOS-II/Source/os_tmr.o
+ .debug_abbrev  0x0000120f      0x10f src/user/main.o
+ .debug_abbrev  0x0000131e      0x1ba src/user/task.o
+
+.debug_line     0x00000000     0x1239
+ *(.debug_line)
+ .debug_line    0x00000000      0x185 src/library/basic.o
+ .debug_line    0x00000185      0x11e src/library/esp8266.o
+ .debug_line    0x000002a3       0xa8 src/library/hue.o
+ .debug_line    0x0000034b       0x96 src/library/led.o
+ .debug_line    0x000003e1      0x14d src/library/pwm.o
+ .debug_line    0x0000052e      0x1be src/library/usart0.o
+ .debug_line    0x000006ec       0x1a src/uCOS-II/App/app_hooks.o
+ .debug_line    0x00000706       0xd0 src/uCOS-II/Ports/os_cpu_a.o
+ .debug_line    0x000007d6      0x137 src/uCOS-II/Ports/os_cpu_c.o
+ .debug_line    0x0000090d       0x47 src/uCOS-II/Ports/os_dbg.o
+ .debug_line    0x00000954      0x2a1 src/uCOS-II/Source/os_core.o
+ .debug_line    0x00000bf5       0x1a src/uCOS-II/Source/os_flag.o
+ .debug_line    0x00000c0f       0x1a src/uCOS-II/Source/os_mbox.o
+ .debug_line    0x00000c29       0x1a src/uCOS-II/Source/os_mem.o
+ .debug_line    0x00000c43       0x1a src/uCOS-II/Source/os_mutex.o
+ .debug_line    0x00000c5d      0x116 src/uCOS-II/Source/os_q.o
+ .debug_line    0x00000d73       0xe6 src/uCOS-II/Source/os_sem.o
+ .debug_line    0x00000e59       0xa5 src/uCOS-II/Source/os_task.o
+ .debug_line    0x00000efe       0x86 src/uCOS-II/Source/os_time.o
+ .debug_line    0x00000f84       0x1a src/uCOS-II/Source/os_tmr.o
+ .debug_line    0x00000f9e      0x159 src/user/main.o
+ .debug_line    0x000010f7      0x142 src/user/task.o
+
+.debug_frame    0x00000000      0x934
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x94 src/library/basic.o
+ .debug_frame   0x00000094      0x10c src/library/esp8266.o
+ .debug_frame   0x000001a0       0x44 src/library/hue.o
+ .debug_frame   0x000001e4       0x44 src/library/led.o
+ .debug_frame   0x00000228       0x64 src/library/pwm.o
+ .debug_frame   0x0000028c      0x170 src/library/usart0.o
+ .debug_frame   0x000003fc       0xfc src/uCOS-II/Ports/os_cpu_c.o
+ .debug_frame   0x000004f8      0x1a4 src/uCOS-II/Source/os_core.o
+ .debug_frame   0x0000069c       0xd4 src/uCOS-II/Source/os_q.o
+ .debug_frame   0x00000770       0x98 src/uCOS-II/Source/os_sem.o
+ .debug_frame   0x00000808       0x6c src/uCOS-II/Source/os_task.o
+ .debug_frame   0x00000874       0x38 src/uCOS-II/Source/os_time.o
+ .debug_frame   0x000008ac       0x24 src/user/main.o
+ .debug_frame   0x000008d0       0x64 src/user/task.o
+
+.debug_str      0x00000000      0xaf8
+ *(.debug_str)
+ .debug_str     0x00000000      0x151 src/library/basic.o
+                                0x18a (size before relaxing)
+ .debug_str     0x00000151       0xbc src/library/esp8266.o
+                                0x1ea (size before relaxing)
+ .debug_str     0x0000020d       0x4c src/library/hue.o
+                                0x144 (size before relaxing)
+ .debug_str     0x00000259       0x48 src/library/led.o
+                                0x157 (size before relaxing)
+ .debug_str     0x000002a1       0x3f src/library/pwm.o
+                                0x15d (size before relaxing)
+ .debug_str     0x000002e0      0x18b src/library/usart0.o
+                                0x2d6 (size before relaxing)
+ .debug_str     0x0000046b       0x1f src/uCOS-II/App/app_hooks.o
+                                 0xf2 (size before relaxing)
+ .debug_str     0x0000048a      0x16d src/uCOS-II/Ports/os_cpu_c.o
+                                0x2e0 (size before relaxing)
+ .debug_str     0x000005f7       0x28 src/uCOS-II/Ports/os_dbg.o
+                                0x102 (size before relaxing)
+ .debug_str     0x0000061f      0x314 src/uCOS-II/Source/os_core.o
+                                0x569 (size before relaxing)
+ .debug_str     0x00000933       0x20 src/uCOS-II/Source/os_flag.o
+                                 0xf3 (size before relaxing)
+ .debug_str     0x00000953       0x20 src/uCOS-II/Source/os_mbox.o
+                                 0xf3 (size before relaxing)
+ .debug_str     0x00000973       0x1f src/uCOS-II/Source/os_mem.o
+                                 0xf2 (size before relaxing)
+ .debug_str     0x00000992       0x21 src/uCOS-II/Source/os_mutex.o
+                                 0xf4 (size before relaxing)
+ .debug_str     0x000009b3       0x28 src/uCOS-II/Source/os_q.o
+                                0x345 (size before relaxing)
+ .debug_str     0x000009db       0x1f src/uCOS-II/Source/os_sem.o
+                                0x2ce (size before relaxing)
+ .debug_str     0x000009fa       0x38 src/uCOS-II/Source/os_task.o
+                                0x2b7 (size before relaxing)
+ .debug_str     0x00000a32       0x26 src/uCOS-II/Source/os_time.o
+                                0x264 (size before relaxing)
+ .debug_str     0x00000a58       0x1f src/uCOS-II/Source/os_tmr.o
+                                 0xf2 (size before relaxing)
+ .debug_str     0x00000a77       0x2f src/user/main.o
+                                0x189 (size before relaxing)
+ .debug_str     0x00000aa6       0x52 src/user/task.o
+                                0x22b (size before relaxing)
+
+.debug_loc      0x00000000     0x274b
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x116 src/library/basic.o
+ .debug_loc     0x00000116      0x427 src/library/esp8266.o
+ .debug_loc     0x0000053d      0x1ce src/library/hue.o
+ .debug_loc     0x0000070b       0x63 src/library/led.o
+ .debug_loc     0x0000076e       0x84 src/library/pwm.o
+ .debug_loc     0x000007f2      0x43c src/library/usart0.o
+ .debug_loc     0x00000c2e      0x578 src/uCOS-II/Ports/os_cpu_c.o
+ .debug_loc     0x000011a6      0x820 src/uCOS-II/Source/os_core.o
+ .debug_loc     0x000019c6      0x57f src/uCOS-II/Source/os_q.o
+ .debug_loc     0x00001f45      0x2dc src/uCOS-II/Source/os_sem.o
+ .debug_loc     0x00002221      0x229 src/uCOS-II/Source/os_task.o
+ .debug_loc     0x0000244a       0xbe src/uCOS-II/Source/os_time.o
+ .debug_loc     0x00002508      0x243 src/user/task.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x2c8
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x48 src/library/basic.o
+ .debug_ranges  0x00000048       0x38 src/library/esp8266.o
+ .debug_ranges  0x00000080       0x20 src/library/hue.o
+ .debug_ranges  0x000000a0       0x20 src/library/led.o
+ .debug_ranges  0x000000c0       0x30 src/library/pwm.o
+ .debug_ranges  0x000000f0       0x38 src/library/usart0.o
+ .debug_ranges  0x00000128       0x58 src/uCOS-II/Ports/os_cpu_c.o
+ .debug_ranges  0x00000180       0xa0 src/uCOS-II/Source/os_core.o
+ .debug_ranges  0x00000220       0x28 src/uCOS-II/Source/os_q.o
+ .debug_ranges  0x00000248       0x20 src/uCOS-II/Source/os_sem.o
+ .debug_ranges  0x00000268       0x18 src/uCOS-II/Source/os_task.o
+ .debug_ranges  0x00000280       0x10 src/uCOS-II/Source/os_time.o
+ .debug_ranges  0x00000290       0x10 src/user/main.o
+ .debug_ranges  0x000002a0       0x28 src/user/task.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(ATmega328P_uCOS-II_ESP8266_UDP_color_LED.elf elf32-avr)
+LOAD linker stubs
