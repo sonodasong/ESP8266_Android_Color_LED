@@ -79,7 +79,7 @@ boolean esp8266GetIP(char *buf)
 char *esp8266Rx(void)
 {
 	char *str;
-	do {
+	while (1) {
 		usart0Read(&str, ESP8266_INFINITE_TIMEOUT);
 		if (*str == '+') {
 			str += 8;
@@ -89,7 +89,7 @@ char *esp8266Rx(void)
 			str++;
 			break;
 		}
-	} while (strCmp(str, "OK"));
+	}
 	return str;
 }
 
